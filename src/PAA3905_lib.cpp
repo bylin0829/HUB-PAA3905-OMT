@@ -45,7 +45,7 @@ uint8_t PAA3905::rd8b(){                // read 8bits
     for(int i=0;i<8;i++){
         dly1u; 
         scp1;
-        if (miso) data = data | bitmap;
+        if (paa3905_miso) data = data | bitmap;
         dly1u; 
         scp0;
         bitmap=bitmap>>1;

@@ -115,7 +115,7 @@ enum OperationModes
 #define ss1 digitalWrite(nCSpin, HIGH)
 #define scp0 digitalWrite(sCLKpin,LOW)
 #define scp1 digitalWrite(sCLKpin,HIGH)
-#define miso digitalRead(mISOpin)
+#define paa3905_miso digitalRead(mISOpin)
 #define mosi0 digitalWrite(mOSIpin,LOW)
 #define mosi1 digitalWrite(mOSIpin,HIGH)
 
